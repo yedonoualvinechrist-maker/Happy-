@@ -66,9 +66,15 @@ Que cette nouvelle année de ta vie<br>
 soit pleine de succès et d'amour.
 </p>
 
-<audio id="music" autoplay loop muted>
+<audio id="music" loop>
   <source src="Happy Birthday(MP3_160K).mp3" type="audio/mpeg">
 </audio>
+
+<script>
+document.body.addEventListener("click", function(){
+  document.getElementById("music").play();
+});
+</script>
 
 <script>
 window.addEventListener("load", function(){
